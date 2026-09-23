@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Downloads\\.net\\linq\\assignment\\assignment\\assignment.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Downloads\\.net\\MyFirstProject\\assignment\\assignment\\assignment.csproj",
       "projectName": "assignment",
-      "projectPath": "C:\\Users\\hp\\Downloads\\.net\\linq\\assignment\\assignment\\assignment.csproj",
+      "projectPath": "C:\\Users\\hp\\Downloads\\.net\\MyFirstProject\\assignment\\assignment\\assignment.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\Downloads\\.net\\linq\\assignment\\assignment\\obj\\",
+      "outputPath": "C:\\Users\\hp\\Downloads\\.net\\MyFirstProject\\assignment\\assignment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
