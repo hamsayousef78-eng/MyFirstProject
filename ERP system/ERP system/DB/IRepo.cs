@@ -4,11 +4,11 @@ using System.Text;
 
 namespace ERP_system.DB
 {
-    public interface ICustomerRepo
+    public interface IRepo<T>
     {
-        bool Add(Customer customer);
-        Customer FindById(int id);
+        bool Add(T value);
+        T FindById(int id);
         bool update(int id, string name, string email, string phone);
-        IEnumerable<Customer> GetAll();
+        IEnumerable<T> GetAll();
     }
 }

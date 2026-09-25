@@ -4,21 +4,18 @@ using System.Text;
 
 namespace ERP_system.DB
 {
-    public class InMemoryCustomerRepo:ICustomerRepo
+    public class InMemoryRepo<E,T>:IRepo<T>
     {
-        private InMemoryDatabase _database;
-        public InMemoryCustomerRepo(InMemoryDatabase database)
+        private E _database;
+
+        //Add
+        public bool Add(T value)
         {
-            _database = database;
-        }
-        //Add new cutomer
-        public bool Add(Customer customer)
-        {
-             for(int i=0;i< _database.Customers.Length;i++)
+             for(int i=0;i< _database.Length;i++)
             {
-                if (_database.Customers[i] ==null)
+                if (_database ==null)
                 {
-                    _database.Customers[i] = customer;
+                    _database = value;
                     return true;
                 }
             }
