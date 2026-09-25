@@ -109,7 +109,7 @@ namespace assignment
                 Console.WriteLine($"name: {item}");
             }
             */
-            //20. Count how many students exist in each Department
+            //30. Count how many students exist in each Department
             int count = s.Where(n => n.Grade >= 70).Count();
             Console.WriteLine($" number all students whose Grade is greater than or equal to 70 : {count} ");
         }
